@@ -115,6 +115,7 @@ html {
     background-color: rgb(39, 43, 70);
     border-radius: 10px;
     padding: 30px;
+    min-height: 40vh;
 }
 
 .nav-item {
@@ -177,13 +178,9 @@ ul {
     background-color: rgba(92, 103, 218, 0.9);
 }
 
-#deck {
-    text-align: center;
-}
-
 .card {
+    text-align: center;
     background-color: rgb(64, 66, 80);
-    width: 300px;
     border-radius: 15px;
     margin: 10px auto;
 }
@@ -191,6 +188,10 @@ ul {
 .card>img {
     object-fit: contain;
     border-radius: 15px 15px 0 0;
+}
+
+d-none {
+    animation-duration: .2s;
 }
 
 #scrollTopBtn {

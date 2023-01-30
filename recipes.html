@@ -59,9 +59,9 @@
             <div id="content" class="col-12 col-md-9">
                 <div class="wrapper">
                     <div class="row">
-                        <form class="d-flex">
-                            <input type="search" placeholder="Search" class="form-control">
-                            <button class="btn search-icon" type="submit">
+                        <form id="search" class="d-flex">
+                            <input id="searchBox" type="search" placeholder="Search" class="form-control">
+                            <button id="searchBtn" class="btn search-icon" type="button">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
                                     class="bi bi-search" viewBox="0 0 16 16">
                                     <path
@@ -70,7 +70,60 @@
                             </button>
                         </form>
                     </div>
-                    <div id="deck" class="row"></div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="recipe-img-test.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        birthday cake
+                                    </h5>
+                                    <p class="card-text">
+                                        Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="recipe-img-test.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        chocolate cake
+                                    </h5>
+                                    <p class="card-text">
+                                        Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="recipe-img-test.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        strawberry cake
+                                    </h5>
+                                    <p class="card-text">
+                                        Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="recipe-img-test.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        vanilla cake
+                                    </h5>
+                                    <p class="card-text">
+                                        Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <button id="scrollTopBtn">^</button>
             </div>
